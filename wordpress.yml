@@ -5,11 +5,9 @@ services:
     image: wordpress:latest
     restart: always
     ports:
-<<<<<<< HEAD
+
       - "8085:80"  # Access WordPress on localhost:8080
-=======
-      - "8085:80"  
->>>>>>> 6e4d6f5d99c38326297903ff7661f271ae3587cf
+      
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: wordpress
